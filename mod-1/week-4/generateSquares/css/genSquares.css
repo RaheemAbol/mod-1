@@ -1,0 +1,20 @@
+.square {
+    background-color: rgb(25, 241, 84);
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.square:hover{
+    opacity: 0.2;
+    border-color: black;
+    height: 65px;
+    width: 65px;
+    
+}
+.square:hover::after{
+    background: tomato;
+}
