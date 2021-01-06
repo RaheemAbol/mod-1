@@ -1,0 +1,81 @@
+#container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    height: 400px;
+    width: 90%;
+    border: solid white;
+}
+.child-1{
+    background-color: aqua;
+    flex-basis: 20%;
+    order: 10;
+    flex:1;
+    border: solid white;
+   
+}
+.child-2{
+    background-color: maroon;
+    flex-basis: 20%;
+    order: 9;
+    flex:1;;
+    border: solid white;
+    
+}
+.child-3{
+    background-color: sandybrown;
+    flex-basis: 20%;
+    order: 8;
+    flex:1;
+    border: solid white;
+}
+.child-4{
+    background-color: orangered;
+    flex-basis: 20%;
+    order: 7;
+    flex:1;
+    border: solid white;
+}
+.child-5{
+    background-color: rgb(243, 227, 81);
+    flex-basis: 20%;
+    order: 6;
+    flex:1;
+    border: solid white;
+}
+.child-6{
+    background-color:orchid;
+    flex-basis: 20%;
+    order: 5;
+    flex:1;
+    border: solid white;
+}
+.child-7{
+    background-color: tomato;
+    flex-basis: 20%;
+    order: 4;
+    flex:1;
+    border: solid white;
+}
+.child-8{
+    background-color: royalblue;
+    flex-basis: 20%;
+    order: 3;
+    flex:1;
+    border: solid white;
+}
+.child-9{
+    background-color: seagreen;
+    flex-basis: 20%;
+    order: 2;
+    flex:1;
+    border: solid white;
+}
+.child-10{
+    background-color: khaki;
+    flex-basis: 20%;
+    order: 1;
+    flex:1;
+    border: solid white;
+}

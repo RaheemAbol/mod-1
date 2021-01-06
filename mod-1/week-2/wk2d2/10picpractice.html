@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 pic practice</title>
+</head>
+<body>
+    <img id= 'my-image' alt='img' src='https://th.bing.com/th/id/OIP.TwvhjpomjGoaxjEN9AS6JQHaE8?w=266&h=180&c=7&o=5&dpr=1.1&pid=1.7'>
+<button onclick="plusDivs(-1) ">back</button>
+<button onclick="plusDivs(1) ">forward</button>
+<script>
+let i = 0;
+function plusDivs(x) {
+        var images = ['https://th.bing.com/th/id/OIP.TwvhjpomjGoaxjEN9AS6JQHaE8?w=266&h=180&c=7&o=5&dpr=1.1&pid=1.7',
+         'https://th.bing.com/th/id/OIP.-GRANORvwZ9Vxs-6uANQpgHaFi?w=246&h=184&c=7&o=5&dpr=1.1&pid=1.7', 
+         'https://th.bing.com/th/id/OIP.Xr9b32dl_VDYNvJjSla_cwHaEo?pid=Api&rs=1',
+         'http://www.zastavki.com/pictures/originals/2013/Animals___Cats_Silver_beautiful_Scottish_Fold_cat_045199_.jpg',
+         'http://www.zastavki.com/pictures/originals/2013/Animals___Cats_Silver_beautiful_Scottish_Fold_cat_045199_.jpg',
+         'https://i1.wp.com/pawesomecats.com/wp-content/uploads/2016/03/cat-on-shelf.jpg?resize=740%2C528',
+         'http://www.emdonenilodge.com/wp-content/gallery/cats/002.jpg',
+         'http://www.cheatsheet.com/wp-content/uploads/2017/03/Birman-cats.jpg',
+         'https://www.persiansarenotarabs.com/wp-content/uploads/2019/04/cats-banner-1.jpg',
+         'http://images2.fanpop.com/image/photos/9900000/Cat-Wallpaper-cats-9901711-1024-768.jpg']
+    
+    if (x>0){
+        if (i<10){
+            i++; 
+        }else {
+            i=1; 
+        }
+    }
+    if (x<0){
+        if(i>0){
+            i--;
+        }else{
+            i=10;
+        }
+    }
+
+    document.getElementById('my-image').src = images[i];
+    console.log(i);
+
+    };
+</script>
+
+</body>
+</html>

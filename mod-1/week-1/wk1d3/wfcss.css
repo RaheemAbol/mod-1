@@ -1,0 +1,28 @@
+header{
+    width:100vw;
+    height:200px;
+    background-color: lightpink;
+  }
+  nav{
+    text-align: center;
+    word-spacing: 10px;
+    padding:15px;
+  }
+  
+  /* try appling flex to your parent: */
+  #parent{
+    padding:20px;
+    display:flex;
+    
+  }
+  .child{
+    
+    border: solid;
+    width:200px;
+    height:200px;
+  }
+  footer{
+    width:100vw;
+    height:200px;
+    background-color:grey;
+  }

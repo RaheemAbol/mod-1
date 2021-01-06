@@ -1,0 +1,57 @@
+#main{
+    display: flex;
+    background: forestgreen;
+   
+ }
+#container{
+    background: darkslategray;
+    height: 80vh;
+    width: 50vw;
+    padding: 0.5em;
+    margin: 15vh auto 0;
+    display:flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-content: space-between;
+ }
+ 
+ .child{
+     background: gray;
+     margin: 0.5em;
+     color: white;
+     padding: 0.6em;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     text-align: center;
+     animation-name: bill;
+     animation-duration: 10s;
+ }
+ @keyframes bill{
+     0% {background-color:gray;}
+     25% {background-color:forestgreen;}
+     50% {background-color:gray;}
+     100% {background-color:forestgreen;}
+ 
+ 
+ 
+    }
+ .child:hover{
+     border: solid white;
+     background: forestgreen;
+     margin: 0.5em;
+     color: white;
+     padding: 0.6em;
+     width: 40px;
+     height: 40px;
+     opacity: 0.3;
+ }
+ .child:hover::after{
+     background: forestgreen;
+    
+ }
+ a{
+     justify-content: baseline;
+     color: white;
+ }
